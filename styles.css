@@ -1,0 +1,40 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header styling with ID selector */
+#main-header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #357ab7;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Card layout using class selector */
+.card {
+  background: white;
+  border: 2px solid #ddd;
+  padding: 20px;       /* Padding (inside spacing) */
+  margin: 20px;        /* Margin (outside spacing) */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Shadow for layout styling */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
